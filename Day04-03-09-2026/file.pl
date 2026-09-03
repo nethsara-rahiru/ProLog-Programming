@@ -1,0 +1,15 @@
+numbers([10,20,30,40,50]).
+empty_list([]).
+
+traverse([]).
+traverse_list([H|T]):-
+    write(H),
+    nl,
+    traverse_list(T).
+
+get_length([],0).
+get_length([_|T],X):-
+    get_length(T,L),
+    X is L+1.
+
+add_first(X,List,[X,List]).
