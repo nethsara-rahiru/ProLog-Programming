@@ -1,0 +1,12 @@
+item(pc, 50000, 25).
+item(laptop, 75000, 35).
+item(mouse, 750, 42).
+item(keyboard, 500, 37).
+item(sdCard_8GB, 800, 22).
+item(sdCard_32GB, 1750, 30).
+item(printer, 32000, 0).
+item(scanner, 16000, 0).
+item(webcam, 10000, 15).
+item(headset, 3000, 20).
+
+divide(List1|List2).
